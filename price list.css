@@ -1,0 +1,82 @@
+body{
+    background-image: url("/images\ \(40\).jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: aqua;
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(233, 124, 124, 0.89);
+}
+h4{
+    color: rgb(5, 77, 77);
+    text-align: right;
+    font-style: italic;
+    font-size: 1.4em;
+}
+h2 {
+    color: hsla(135, 92%, 38%, 0.952);
+    font-size: 2em;
+    font-style: oblique;
+
+
+}
+a{
+    padding: 8px 16px;
+    font-size: 1.5em;
+    background-color: rgb(20, 216, 173);
+    color: rgb(245, 237, 237);
+    text-decoration: none;
+    
+
+}
+.lists{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li{
+    display: inline;
+}
+p{
+    font-style: oblique;
+    font-family:fantasy;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(88, 173, 173);width: 40%;
+    margin-left: 30px;
+    margin-bottom: 3px;
+
+   
+}
+
+
+.prices {
+    
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 1.5em;
+    color: rgb(13, 14, 14);
+    display: flex;
+    flex-direction: column;
+}
+/*change color on hover*/
+a:hover{
+    background-color: rgb(24, 4, 109);
+    color: azure;
+}
+
+table,th,td{
+    border-style: solid;
+}
+
+th{
+    background-color: rgb(14, 228, 236);
+    color: rgb(128, 129, 131);
+}

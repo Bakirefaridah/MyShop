@@ -1,0 +1,75 @@
+h1 {
+    color: aqua;
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(233, 124, 124, 0.89);
+}
+h4{
+    color: rgb(5, 77, 77);
+    text-align: right;
+    font-style: italic;
+    font-size: 1.4em;
+}
+#heading {
+    color: rgb(221, 96, 96);width: 40%;
+    background-color: rgba(23, 25, 26, 0.89);
+    font-size: 2em;
+    text-align: center;
+}
+body{
+    background-image: url("/images\ \(41\).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form {
+    display: block;
+
+}
+legend{
+    color: red;
+    font-size: 3em;
+    font-style: italic;
+}
+.field{
+    border:solid 10px rgb(63, 59, 59);width: 70%;
+    border-radius: 50px;
+
+}
+
+label {
+    margin: 10px;
+    display: block;
+    font-size: 2em;
+    color: blue;
+    font-style: oblique;
+    text-align: center;
+     
+}
+input{
+    font-size: medium;
+    color: crimson;
+    margin-left: 32em;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+li a{
+    padding: 8px 16px;
+    background-color: rgb(21, 21, 99);
+    color: cornsilk;
+}
+li{
+    display: inline;
+}
+/*change color on hover*/
+a:hover{
+    background-color: rgb(95, 94, 88);
+    color: black;
+}
